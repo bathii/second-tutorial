@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+       <title> Tutorial </title>
+ </head>
+ 
+ <body>
+     <button id="display">Display Date</button>
+     <button id="clear">Clear Date</button>
+	 <div id="results"></div>
+
+<script src="js/zepto.min.js"></script>
+<script src="js/tuto.js"></script>
+<script>
+$('#display').click(function(){
+     DISPLAY.displayDate($('#results'));
+});
+
+$('#clear').click(function(){
+     $('#results').html('');
+});
+</script>
+ </body>
+ </html>
